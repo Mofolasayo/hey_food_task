@@ -52,9 +52,9 @@ class LoginScreen extends StatelessWidget {
                                 TextStyle(color: Color.fromARGB(255, 9, 9, 9))),
                       ),
                     ),
-                    Spacer(),
+                    SizedBox(width: 10),
                     SizedBox(
-                      width: 300,
+                      width: 290,
                       child: TextField(
                         keyboardType: TextInputType.number,
                         decoration: InputDecoration(

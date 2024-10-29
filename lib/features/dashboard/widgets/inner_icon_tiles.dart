@@ -14,7 +14,7 @@ class InnerIconTiles extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 80,
-      width: 80,
+      width: 90,
       alignment: Alignment.center,
       decoration: BoxDecoration(
           border: Border.all(
