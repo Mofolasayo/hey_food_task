@@ -61,7 +61,8 @@ class HomeScreen extends StatelessWidget {
           children: [
             Container(
               width: AppDimensions.deviceWidth(context),
-              height: AppDimensions.deviceHeight(context) * 0.455,
+              height: 430,
+              // height: AppDimensions.deviceHeight(context) * 0.455,
               decoration: const BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(
@@ -148,12 +149,11 @@ class HomeScreen extends StatelessWidget {
             ),
             Container(
               width: AppDimensions.deviceWidth(context),
-              height: AppDimensions.deviceHeight(context) * 0.3,
-              decoration: const BoxDecoration(
+              height: 300,
+              //height: AppDimensions.deviceHeight(context) * 0.3,
+              decoration: BoxDecoration(
                 color: Colors.white,
-                borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(25),
-                    topRight: Radius.circular(25)),
+                borderRadius: BorderRadius.circular(25),
               ),
               child: Padding(
                 padding:
@@ -185,7 +185,8 @@ class HomeScreen extends StatelessWidget {
             ),
             Container(
               width: AppDimensions.deviceWidth(context),
-              height: AppDimensions.deviceHeight(context) * 0.3,
+              // height: AppDimensions.deviceHeight(context) * 0.3,
+              height: 300,
               decoration: const BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(

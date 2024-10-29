@@ -51,7 +51,8 @@ class ShopsScreen extends StatelessWidget {
                     bottomLeft: Radius.circular(30),
                     bottomRight: Radius.circular(30)),
               ),
-              height: AppDimensions.deviceHeight(context) * 0.42,
+              //height: AppDimensions.deviceHeight(context) * 0.42,
+              height: 380,
               width: AppDimensions.deviceWidth(context),
               child: Padding(
                 padding: const EdgeInsets.all(15.0),

@@ -12,7 +12,7 @@ class AppSearchField extends StatelessWidget {
     return Row(
       children: [
         SizedBox(
-          width: AppDimensions.deviceWidth(context) * 0.83,
+          width: AppDimensions.deviceWidth(context) * 0.8,
           child: TextField(
             decoration: InputDecoration(
                 filled: true,

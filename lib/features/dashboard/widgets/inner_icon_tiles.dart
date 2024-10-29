@@ -13,8 +13,8 @@ class InnerIconTiles extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 95,
-      width: 90,
+      height: 80,
+      width: 80,
       alignment: Alignment.center,
       decoration: BoxDecoration(
           border: Border.all(
@@ -29,8 +29,8 @@ class InnerIconTiles extends StatelessWidget {
             padding: const EdgeInsets.only(left: 8.0, right: 8.0),
             child: SvgPicture.string(
               icon,
-              width: 60,
-              height: 65,
+              width: 50,
+              height: 50,
             ),
           ),
           Text(
